@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+/* Header section */
+.banner {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('img/Banner\ Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 40px auto;
+    border-radius: 16px;
+}
+
+.ti1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+}
+
+.ti2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    padding: 0px 344px 0px 344px;
+    /* padding-top: 233;
+    padding-right: 344px;
+    padding-left: 344px; */
+}
+
+.promotion li {
+    list-style: none;
+    padding: 0;
+}
+
+.li1 {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    font-family: Inter;
+    margin-top: 150px;
+}
+
+.li2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 65px;
+}
+
+.li3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.li4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.li4 img {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 120px;
+}
+
+/* main section */
+
+.joinparty {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 70%), url('img/Vectorrr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 40px auto;
+    border: none;
+    border-radius: 16px;
+}
+
+.partytext {
+    margin-left: 150px;
+}
+
+.partytext h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.partytext p {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.partytext a {
+    text-decoration: none;
+    padding: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.partyimg {
+    /* mix-blend-mode: multiply; */
+    margin-right: 150px;
+}
+
+.partytext a:hover {
+    /* background-color: rgb(31, 31, 31); */
+    border: #ffffff solid;
+    border-radius: 8px;
+}
+
+/* Details area */
+
+.details {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00));
+    margin-right: 280px;
+    margin-left: 280px;
+    margin-top: 150px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 100px;
+}
+
+.details h1 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.details span {
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.details button {
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    gap: 10px;
+    border: none;
+    margin-top: 30px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.details button:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 25px #070211;
+}
+
+.offer {
+    margin-right: 280px;
+    margin-left: 280px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.soon {
+    max-width: 393px;
+    text-align: left;
+}
+
+.soon h3 {
+
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.soon h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.soon p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.details2 {
+    max-width: 276px;
+    text-align: left;
+}
+
+.details2 h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.details2 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.img2 {
+    padding: 15px;
+    border: 10px #F00 solid;
+    border-radius: 50%;
+}
