@@ -95,8 +95,8 @@ body {
     background-repeat: no-repeat;
     background-position: cover;
     width: 100%;
-    max-width: 1320px;
-    height: 600px;
+    max-width: 74%;
+    height: auto;
     margin: 40px auto;
     border: none;
     border-radius: 16px;
@@ -153,8 +153,8 @@ body {
 
 .details {
     background-image: linear-gradient(rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00));
-    margin-right: 280px;
-    margin-left: 280px;
+    margin-right: 13%;
+    margin-left: 13%;
     margin-top: 150px;
     border-radius: 15px;
     text-align: center;
@@ -198,9 +198,10 @@ body {
 }
 
 .offer {
-    margin-right: 280px;
-    margin-left: 280px;
+    margin-right: 13%;
+    margin-left: 13%;
     margin-top: 150px;
+    margin-bottom: 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -257,7 +258,57 @@ body {
 }
 
 .img2 {
-    padding: 15px;
-    border: 10px #F00 solid;
+    padding: 40px;
+    border: 20px #F00 solid;
     border-radius: 50%;
+}
+
+.o50 {
+    text-align: center;
+    margin-right: 13%;
+    margin-left: 13%;
+    background-color: #FFF;
+}
+
+.text50 h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text50 h1 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.text50 h1 span {
+    color: #F00;
+}
+
+.text50 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 70px;
+}
+
+#a {
+    position: relative;
+    right: 41px;
+    float: right;
+}
+#b {
+    position: absolute;
+    left: 1030px;
+    top: 4030px;
+    z-index: +1;
+}
+#c {
+    mix-blend-mode: normal;
+    position: absolute;
+    left: 300px;
 }
